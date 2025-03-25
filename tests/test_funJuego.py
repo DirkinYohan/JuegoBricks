@@ -1,18 +1,10 @@
 import unittest
 from unittest.mock import patch
-from src.funJuego import StringIO
+from io import StringIO  # Corregido: importación correcta
 
-# Código original
-def iniciar_juego():
-    print("¡Iniciando juego!!!")
+# Importa las funciones desde el archivo correcto
+from src.funJuego import iniciar_juego, mover_personaje, finalizar_juego
 
-def mover_personaje(direccion):
-    print(f"Moviendo personaje hacia {direccion}")
-
-def finalizar_juego():
-    print("¡Fin del juego!!")
-
-# Pruebas unitarias
 class TestJuego(unittest.TestCase):
 
     @patch('sys.stdout', new_callable=StringIO)
