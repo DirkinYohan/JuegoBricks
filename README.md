@@ -1,3 +1,4 @@
+Dirkin Yohan Ojeda Rodríguez 
 # 🧪 Pruebas Unitarias con Pytest en JuegoBricks
 
 ## 📦 Instalación de Dependencias
