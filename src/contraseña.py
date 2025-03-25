@@ -7,4 +7,4 @@ def generar_contraseña(longitud=12):
     return contraseña
 
 # Generar y mostrar una contraseña segura
-print("Contraseña generada:", generar_contraseña())
+print("Contraseña generada:", generar_contraseña()) 
